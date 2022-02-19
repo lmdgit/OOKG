@@ -1,7 +1,7 @@
 # SLAN
 This code is modified based on https://github.com/thunlp/OpenKE
 
-During the test time, we divide the test2id.txt into two parts: testsub.txt (ookg entities occur as subjects in the triples), testobj (ookg entieies occur as objects in the triples).
+During the test time, we divide the test2id.txt into two parts: testsub.txt (ookg entities occur as subjects in the triples), testobj (ookg entities occur as objects in the triples).
 
 
 ## Reproducing results
