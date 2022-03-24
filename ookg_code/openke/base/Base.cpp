@@ -118,7 +118,7 @@ void* getBatch(void* con) {
 						batch_r[batch + last] = trainList[i].r;
 						while(isF){
 							bool iscopy=true;
-							for(INT i=0; i<1029; i++){
+							for(INT i=0; i<len_ent; i++){
 								if(e2e[i] == batch_t[batch + last] ){
 									batch_t[batch + last] = corrupt_head(id, trainList[i].h, trainList[i].r);
 									iscopy=false;
@@ -138,7 +138,7 @@ void* getBatch(void* con) {
 						batch_r[batch + last] = trainList[i].r;
 						while(isF){
 							bool iscopy=true;
-							for(INT i=0; i<1029; i++){
+							for(INT i=0; i<len_ent; i++){
 								if(e2e[i] == batch_h[batch + last] ){
 									batch_h[batch + last] = corrupt_tail(id, trainList[i].t, trainList[i].r);
 									iscopy=false;

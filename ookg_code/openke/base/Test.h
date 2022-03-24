@@ -82,7 +82,7 @@ void testHead(REAL *con, INT lastHead, bool type_constrain = false) {
     for (INT j = 0; j < entityTotal; j++) {
     INT isF=1;
 	
-    for(INT i=0; i<1029; i++){
+    for(INT i=0; i<len_ent; i++){
             if(e2e[i]==j){
                 isF=0;
                 break;
@@ -156,7 +156,7 @@ void testTail(REAL *con, INT lastTail, bool type_constrain = false) {
     for (INT j = 0; j < entityTotal; j++) {
     INT isF=1;
 	
-    for(INT i=0; i<1029; i++){
+    for(INT i=0; i<len_ent; i++){
             if(e2e[i]==j){
                 isF=0;
                 break;
